@@ -1,0 +1,178 @@
+body {
+    background-image: url('ait.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter: blur(); */
+    
+    /* margin: 40%; */
+}
+.container {
+    display: grid;
+    grid-gap: 5rem;
+    column-gap: 20rem;
+    row-gap: 8rem;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(5, 100px);
+    align-items: center;
+   justify-items: center;
+   /* border: 5px solid; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding-top: 500px;
+    }
+    .place1 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        
+    }
+   
+    .place2 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        box-shadow: 3px;
+    }
+ 
+    .place3 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        box-shadow: 5px;
+    }
+ 
+    .place4 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        box-shadow: 3px;
+    }
+ 
+    .place5 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        box-shadow: 5px;
+    }
+ 
+    .place6 {
+        /* border: 3px solid; */
+        height: 200px;
+        width: 400px ;
+        border-radius: 5%;
+        box-shadow: 3px;
+    }
+    .photos{
+        object-fit:fill;
+        width: 400px;
+        height: 200px;
+        border-radius: 5%;
+        position: relative;
+        z-index: 2;
+        
+    
+    }
+    .text{
+        position: absolute;
+        bottom: 40px;
+        left: 16px;
+        position: relative;
+        z-index: 100;
+        color: rgb(19, 17, 10);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+    }
+    #sidebar1{
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color: black;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+    } #sidebar2 {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color: black;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+    } #sidebar3 {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color:black;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+    } #sidebar4{
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color:black;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+    }
+    #sidebar5 {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color:black;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+    } #sidebar6 {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #sidebar1.visible {
+        display: block;
+    }
+     #sidebar2.visible {
+        display: block;
+    }
+     #sidebar3.visible {
+        display: block;
+    }
+     #sidebar4.visible {
+        display: block;
+    }
+     #sidebar5.visible {
+        display: block;
+    }
+     #sidebar6.visible {
+        display: block;
+    }

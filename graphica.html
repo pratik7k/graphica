@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANM</title>
+    <style>
+        body {
+            background-image: url('hi2.jpg');
+            background-repeat: no-repeat;
+            background-size:100%;
+        }
+
+        
+
+        h1 {
+            animation: colorChange 4s infinite;
+            font-size: xx-large;
+            text-align: center;
+            transition: transform 1s;
+            color: antiquewhite;
+            font-family: sans-serif;
+        }
+        
+        .text-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+
+        
+        }
+        
+
+        .text1,.text2 {
+            padding: 10px;
+            color:azure;
+
+            border-radius: 5px;
+            width:400px;
+            height:fit-content;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0,0,0,0.5);
+            transition: transform 0.3s ease-in-out;
+            
+        }
+        
+        .text1:hover {
+            transform: translateX(+50px);
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .text2:hover{
+            transform: translateX(-50px);
+            background-color: rgba(0,0,0,0.8);
+            
+        }
+        .head{
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 37.5px;
+            padding-top:50px;
+            padding-bottom: 50px;
+            text-align: center;
+            margin-bottom: 100px;
+            width: fit-content;
+            margin-left:300px;
+            transition:transform 1s;
+            padding-left:60px;
+            padding-right:60px;
+            border: 2px solid white ;
+
+        }
+
+        .head:hover{
+            transform: scale(1.5);
+        }
+
+        .b2{
+            display:flex;
+            justify-content: right;
+            margin-top:100px;
+        }
+        
+        .button{
+            background-color:rgba(0,0,0,0.5);
+            border:none;
+            border-radius: 8%;
+            height: 22px;
+            font-weight: bold;
+            color:blanchedalmond ;
+            padding-left: 4px;
+        }
+
+        .button:hover{
+        opacity: 0.8;
+        }
+
+
+    </style>
+</head>
+
+
+
+<body>
+    <div class="head">
+    <h1>
+        WELCOME TO AIT NAVIGATION SYSTEM 
+    </h1>
+    </div>
+    
+    <div class="text-container">
+        <div class="text1">
+            <strong> Our Vision</strong>  
+            <br>
+        This website aims to acknowlegde the people about most releant places of Army Institute of Technology 
+        and help you to navigate through it
+        <br>
+         It provides a detailed description of the major places that you see in Army Institue of Technology, Pune.     
+        </div>
+        
+        <div class="text2">
+            <strong>About AIT PUNE</strong>
+        <br> <br>
+        AIT was formally inaugurated by Gen S. Roy Chaudhary PVSM, ADC on 24th Feb, 1995.
+         The first batch of students graduated in 1998. 
+         The succeeding batches continue to excel in all fields - be it sports, culturals or academics.
+        </div>
+    </div >
+
+    
+
+    <div class="b2" >
+    <a href ="nav.html"><button  class="button"> NEXT> </button></a>
+    </div>
+</body>
+</html>

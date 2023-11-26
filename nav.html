@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    
+        
+        <div class="container">
+            <div class="place1">
+                <img src="acad.jpeg" class="photos" id="1">
+                <div class="text">
+                    Academic block
+                </div>
+            
+            </div>
+            <div class="place2">
+                <img src="hostel.jpg" class="photos" id="2">
+                <div class="text">
+                  Boys hostel
+                </div>
+            </div>
+            <div class="place3">
+                <img src="mess.jpg" class="photos" id="3">
+                <div class="text">
+                    Boys Mess
+                </div>
+            </div>
+            <div class="place4">
+                <img src="temple.jpg" class="photos"id=4>
+                <div class="text">SDS</div>
+            </div>
+            <div class="place5">
+                <img src="shopping.png" class="photos" id="5">
+                <div class="text">Shopping Center</div>
+            </div>
+            <div class="place6">
+                <img src="oac.jpg" class="photos" id="6">
+                <div class="text">
+                    OAC
+                </div>
+            </div>
+        </div>
+        <div id="sidebar1">
+            <p>The place where all the ait students study ,also containing all the deparments.
+                <br>
+                Present just in front of the web page.
+            </p>
+        </div>
+        
+        <div id="sidebar2">
+            <p>A place to reside for the all boys in the ait campus, is present just in front of the ait cricket gorund at the back of the academic block.</p>
+        </div>
+        
+        <div id="sidebar3">
+            <p>A place that provides food to all the students , it is situated just near the boys hostel towards the end of the campus.</p>
+        </div>
+        
+        <div id="sidebar4">
+            <p>A place to clam your mind form the worries of the studies , the sarva dhrama sthal is present just in front of the mechnanical workshop in the back of the academic block.</p>
+        </div>
+        
+        <div id="sidebar5">
+            <p>It provides daliy necessity to every student , you just need head towards right from the ait campus gate.</p>
+        </div>
+        
+        <div id="sidebar6">
+            <p>A place that provides much needed eneergy to students by providing snakcs , the oac is just situated at right corner of the parking lot.</p>
+        </div>
+        <script>
+            document.getElementById('1').addEventListener('click', function() {
+                document.getElementById('sidebar1').classList.toggle('visible');
+            });
+            document.getElementById('2').addEventListener('click', function() {
+                document.getElementById('sidebar2').classList.toggle('visible');
+            });
+            document.getElementById('3').addEventListener('click', function() {
+                document.getElementById('sidebar3').classList.toggle('visible');
+            });
+            document.getElementById('4').addEventListener('click', function() {
+                document.getElementById('sidebar4').classList.toggle('visible');
+            });
+            document.getElementById('5').addEventListener('click', function() {
+                document.getElementById('sidebar5').classList.toggle('visible');
+            });
+            document.getElementById('6').addEventListener('click', function() {
+                document.getElementById('sidebar6').classList.toggle('visible');
+            });
+        </script>
+</body>
+</html>
